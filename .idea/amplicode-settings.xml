@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CrudOperationsStateConfig">
+    <option name="configPaths">
+      <map>
+        <entry key="dto" value="by.raikiri.order_creation_service.model.OrderEvent" />
+        <entry key="repository" value="by.raikiri.order_creation_service.repository.OrderEventRepository" />
+        <entry key="serviceProxy" value="by.raikiri.order_creation_service.service.OrderService" />
+      </map>
+    </option>
+  </component>
+  <component name="SpringProjectLocalState" newTableIdType="UUID">
+    <option name="firstOpen" value="false" />
+  </component>
+</project>

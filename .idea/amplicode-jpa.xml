@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AmplicodeJpaIdeaProjectConfig" snapshotDbType="POSTGRES" ddlActionDbType="postgres" newRepositoryParent="org.springframework.data.jpa.repository.JpaRepository">
+    <option name="sourceDiffType" value="DB" />
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="renamerInitialized" value="true" />
+    <option name="sourceDbValue" value="169bad43-965c-4844-853a-a41eff64528b" />
+    <option name="targetDbValue" value="169bad43-965c-4844-853a-a41eff64528b" />
+    <option name="isSnapshotDb" value="false" />
+    <option name="snapshotDbValue" value="169bad43-965c-4844-853a-a41eff64528b" />
+    <option name="snapshotModelValue" value="Default" />
+    <option name="newEntityIdType" value="UUID" />
+    <option name="newEntityIdStrategy" value="UUID" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: order-creation-service
+
+  datasource:
+    url: jdbc:postgresql://db-1:5432/order_creation
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+
+  kafka:
+    bootstrap-servers: kafka:9092
+    consumer:
+      max-poll-records: 30
+      group-id: order-creation-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+
+server:
+  port: 8081
+
+logging:
+  level:
+    by.raikiri: DEBUG
+    org.springframework.kafka: DEBUG

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/order-confirmation-service/order-confirmation-service.iml" filepath="$PROJECT_DIR$/order-confirmation-service/order-confirmation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/raikiri.iml" filepath="$PROJECT_DIR$/.idea/raikiri.iml" />
+    </modules>
+  </component>
+</project>

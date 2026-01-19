@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    primary:
+      url: jdbc:postgresql://localhost:5432/order_creation
+      username: postgres
+      password: postgres
+    second:
+      url: jdbc:postgresql://localhost:5433/order_confirmation
+      username: postgres
+      password: postgres
+    third:
+      url: jdbc:postgresql://localhost:5434/order_processing
+      username: postgres
+      password: postgres
+
+server:
+  port: 8099
